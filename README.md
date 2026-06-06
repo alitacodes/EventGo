@@ -23,33 +23,6 @@ npm install express mongoose dotenv cors bcryptjs jsonwebtoken nodemailer body-p
 npm install --save-dev nodemon
 ```
 
-EventGo-MERN/                        # Root Monorepository Workspace Container
-├── server/                            # Core Backend Web Server Module Node Context
-│   ├── config/                        # Shared Infrastructure Data Layer Configurations
-│   │   └── db.js                      # Main MongoDB Connection Interface Setup
-│   ├── controllers/                   # Core Module Routing Implementation Business Logic
-│   │   ├── authController.js          # Authentication Strategy Control Logics (Sign-In, Verification)
-│   │   ├── eventController.js         # Administration & Creation Matrix Business Endpoints
-│   │   └── bookingController.js       # Transactional Validation Routines
-│   ├── models/                        # Object Modeling Schemas mapping to Mongoose Schemas
-│   │   ├── User.js                    # User Profiles Schema definitions
-│   │   ├── Event.js                   # Events Information Matrix fields Mapping
-│   │   └── Booking.js                 # Transactional Ticket Registration Records
-│   ├── routes/                        # API Pipeline Target URI Routers Definition Layers
-│   ├── middleware/                    # HTTP Transaction Guard Interceptor Plugins
-│   │   ├── authMiddleware.js          # User Token Validation Strategy
-│   │   └── adminMiddleware.js         # Higher-Level Access Control Check
-│   ├── utils/                         # Helper Framework Wrappers
-│   │   └── mailer.js                  # SMTP Email Service Interface Definition
-│   └── index.js                       # Primary Application Startup Hub Context Entry
-└── client/                            # Complete Web Client Layer Configuration Directory
-    ├── src/                           # Source Application Runtime Presentation Layer Assets
-    │   ├── components/                # Modular Reusable Interface Control Components
-    │   ├── pages/                     # Full Render Views Template Context Containers
-    │   ├── context/                   # Context Global Application State Storage
-    │   ├── utils/                     # Pre-Configured Axios Interceptor Core Service Plugins
-    │   └── App.jsx                    # Routing Pipeline Assembly Setup
-    └── main.jsx                       # Application Bootstrap Initializer Context Script
 # Frontend / Presentation UI Workspace Application Infrastructure
 ```bash
 npm install axios react-router-dom react-hot-toast lucide-react react-chartjs-2 chart.js
