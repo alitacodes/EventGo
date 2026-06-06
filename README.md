@@ -22,10 +22,6 @@
 npm install express mongoose dotenv cors bcryptjs jsonwebtoken nodemailer body-parser
 npm install --save-dev nodemon
 ```
-# Frontend / Presentation UI Workspace Application Infrastructure
-```bash
-npm install axios react-router-dom react-hot-toast lucide-react react-chartjs-2 chart.js
-```
 
 EventGo-MERN/                        # Root Monorepository Workspace Container
 ├── server/                            # Core Backend Web Server Module Node Context
@@ -54,3 +50,9 @@ EventGo-MERN/                        # Root Monorepository Workspace Container
     │   ├── utils/                     # Pre-Configured Axios Interceptor Core Service Plugins
     │   └── App.jsx                    # Routing Pipeline Assembly Setup
     └── main.jsx                       # Application Bootstrap Initializer Context Script
+# Frontend / Presentation UI Workspace Application Infrastructure
+```bash
+npm install axios react-router-dom react-hot-toast lucide-react react-chartjs-2 chart.js
+```
+
+
